@@ -1,0 +1,12 @@
+yarn.lock linguist-generated
+* text=auto
+app/**/*.tsx linguist-detectable
+app/*.tsx linguist-detectable
+
+*.htm linguist-vendored
+*.jpg binary
+*.ico binary
+
+vendor/* linguist-vendored
+
+*.json linguist-detectable=false
